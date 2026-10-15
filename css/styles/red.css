@@ -1,0 +1,215 @@
+/* -----------------------
+COLOR : RED 
+COLOR CODE: #f62459
+------------------------- */
+header nav ul.nav li.active a {
+    border-bottom: 2px dotted #f62459;
+    color: #f62459;
+}
+
+header nav ul.nav li a:hover {
+    color: #f62459;
+}
+
+header nav ul.nav li:last-child form {
+    background: #f62459;
+}
+
+header nav ul.nav li:last-child form::before {
+    border-bottom: 20px solid #f62459;
+}
+
+header nav ul.nav li:last-child form button:hover {
+    background: #f62459;
+}
+
+.intro #intro-carousel .carousel-inner .item figure figcaption h1 span:first-child {
+    color: #f62459;
+}
+
+.intro #intro-carousel .carousel-inner .item figure figcaption a {
+    background: #f62459;
+}
+
+.section-number::before {
+    background: #f62459;
+}
+
+.section-number::after {
+    background: #f62459;
+}
+
+.section-number {
+    border: 1px solid #f62459;
+    color: #f62459;
+}
+
+.about i {
+    color: #f62459;
+}
+
+.about a {
+    color: #f62459;
+}
+
+.services .service-box i {
+    color: #f62459;
+}
+
+.services .service-box a {
+    color: #f62459;
+}
+
+.portfolio .portfolio-item figure figcaption {
+    background: rgba(255, 72, 72, 0.7);
+}
+
+.testimonial #testimonial-carousel .owl-wrapper-outer {
+    border-bottom: 1px solid #f62459;
+    border-left: 1px solid #f62459;
+}
+
+.testimonial #testimonial-carousel .client-content .client-info h3 {
+    color: #f62459;
+}
+
+.testimonial #testimonial-carousel .owl-controls .owl-pagination .owl-page.active {
+    background: #f62459;
+    border-color: #f62459;
+}
+
+.testimonial #testimonial-carousel .client-content .client-info ul.c-rating li {
+    color: #f62459;
+}
+
+.pricing-table .featured-plan .pricing-wrapper {
+    border: 1px solid #f62459;
+    box-shadow: 0 5px 54px rgba(246, 36, 89, 0.2);
+}
+
+.pricing-table .single-plan:hover .pricing-wrapper {
+    border: 1px solid #f62459;
+    box-shadow: 0 5px 54px rgba(246, 36, 89, 0.2);
+}
+
+.pricing-table .single-plan .pricing-wrapper .pricing-content .plan-purchase a.buy-plan-btn::before {
+    background: #f62459;
+}
+
+.blog .single-post a.read-more-btn::before {
+    background: #f62459;
+}
+
+.blog .single-post h3 a:hover {
+    color: #f62459;
+}
+
+.blog .single-post a.read-more-btn::before {
+    background: #f62459;
+}
+
+.team #team-carousel .team-single figure figcaption {
+    background: rgba(255, 72, 72, 0.7);
+}
+
+.contact form div input, .contact form div textarea {
+    border-color: #f62459;
+}
+
+.contact form div button[type="submit"] {
+    background: #f62459;
+}
+
+.intro #intro-carousel .left-slide:hover:before {
+    background: #f62459;
+}
+
+.intro #intro-carousel .left-slide:hover:after {
+    border-color: #f62459;
+}
+
+.intro #intro-carousel .right-slide:hover:before {
+    background: #f62459;
+}
+
+.intro #intro-carousel .right-slide:hover:after {
+    border-color: #f62459;
+}
+
+.intro-bottom > a::before {
+    border: 3px solid #f62459;
+}
+
+.intro-bottom > a::after {
+    border-bottom: 3px solid #f62459;
+    color: #f62459;
+}
+
+footer {
+    background: #f62459;
+}
+
+.primary-button {
+    background: #f62459;
+}
+
+.pricing-table .container:hover .featured-plan:hover .pricing-wrapper {
+    border: 1px solid #f62459;
+    box-shadow: 0 5px 54px rgba(246, 36, 89, 0.2);
+}
+
+.pricing-table .container:hover .featured-plan .pricing-wrapper .pricing-content .plan-purchase a.buy-plan-btn::before {
+    background: #f62459;
+}
+
+.pricing-table .single-plan .pricing-wrapper .pricing-content .plan-purchase a.buy-plan-btn::before {
+    background: #f62459;
+}
+
+.pricing-table .featured-plan .pricing-wrapper .pricing-content .plan-purchase a.buy-plan-btn {
+    background: #f62459;
+}
+
+.pricing-table .single-plan .pricing-wrapper .pricing-content .plan-purchase a.buy-plan-btn::before {
+    background: #f62459;
+}
+
+.pricing-table .single-plan:hover .pricing-wrapper .pricing-content .plan-purchase a.buy-plan-btn {
+    background: #f62459;
+}
+
+.pricing-table .container:hover .featured-plan:hover .pricing-wrapper .pricing-content .plan-purchase a.buy-plan-btn {
+    background: #f62459;
+}
+
+.testimonial #testimonial-carousel .owl-controls .owl-buttons .owl-next:hover:before {
+    background: #f62459;
+}
+
+.testimonial #testimonial-carousel .owl-controls .owl-buttons .owl-next:hover:after {
+    border-color: #f62459;
+}
+
+.testimonial #testimonial-carousel .owl-controls .owl-buttons .owl-prev:hover:before {
+    background: #f62459;
+}
+
+.testimonial #testimonial-carousel .owl-controls .owl-buttons .owl-prev:hover:after {
+    border-color: #f62459;
+}
+
+.team #team-carousel .owl-controls .owl-buttons .owl-next:hover:before {
+    background: #f62459;
+}
+
+.team #team-carousel .owl-controls .owl-buttons .owl-next:hover:after {
+    border-color: #f62459;
+}
+
+.team #team-carousel .owl-controls .owl-buttons .owl-prev:hover:before {
+    background: #f62459;
+}
+
+.team #team-carousel .owl-controls .owl-buttons .owl-prev:hover:after {
+    border-color: #f62459;
+}

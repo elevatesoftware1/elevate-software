@@ -1,0 +1,279 @@
+/* Responsive Styles 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media only screen and (max-width: 1200px) {
+    .intro #intro-carousel .carousel-inner .item figure figcaption h1 {
+        font-size: 50px;
+        width: 600px;
+    }
+    .intro #intro-carousel .carousel-inner .item figure figcaption {
+        top: 150px;
+    }
+    .about, .services, .testimonial, .blog, .video, .creative-concept, .portfolio, .team, .contact, .pricing-table {
+        padding: 116px 0;
+    }
+    .creative-concept {
+        padding-bottom: 100px;
+    }
+    .creative-concept .concept-image img {
+        width: 107%;
+    }
+    .creative-concept {
+        padding-bottom: 150px;
+    }
+    .testimonial #testimonial-carousel .owl-controls .owl-buttons {
+        right: 0;
+    }
+    .pricing-table .single-plan .pricing-wrapper .pricing-content .plan-purchase a.buy-plan-btn {
+        padding: 10px 25px;
+    }
+    .team #team-carousel .team-single figure figcaption ul {
+        margin: 15px 0;
+    }
+    .team #team-carousel .owl-controls .owl-buttons {
+        bottom: -70px;
+        right: 0;
+    };
+}
+
+@media only screen and (max-width: 991px) {
+    .intro #intro-carousel .carousel-inner .item figure figcaption {
+        top: 130px;
+    }
+    .intro #intro-carousel .carousel-inner .item figure figcaption h1 {
+        font-size: 40px;
+        width: 100%;
+    }
+    .intro #intro-carousel .carousel-inner .item figure figcaption a {
+        margin-top: 10px;
+        padding: 10px 25px;
+    }
+    .intro .intro-bottom {
+        height: 150px;
+    }
+    .intro #intro-carousel .left-slide, .intro #intro-carousel .right-slide {
+        bottom: 100px;
+    }
+    .about, .services, .testimonial, .blog, .video, .creative-concept, .portfolio, .team, .contact, .pricing-table {
+        padding: 116px 0;
+    }
+    .creative-concept {
+        padding-bottom: 100px;
+    }
+    .creative-concept .concept-image {
+        margin-top: -190px;
+    }
+    .creative-concept .concept-image {
+        margin-top: -100px;
+    }
+    .creative-concept .concept-image img {
+        width: 100%;
+    }
+    .creative-concept .concept-text p {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .testimonial #testimonial-carousel .client-image img {
+        width: 100%;
+    }
+    .testimonial #testimonial-carousel .owl-controls .owl-pagination {
+        bottom: 10px;
+        left: 50%;
+    }
+    .testimonial #testimonial-carousel .client-content .client-info ul.c-rating {
+        right: 5px;
+    }
+    .testimonial #testimonial-carousel .owl-controls .owl-buttons {
+        right: 0;
+    }
+    .pricing-table .single-plan {
+        margin-bottom: 30px;
+    }
+    .pricing-table .single-plan:last-child {
+        margin-bottom: 0;
+    }
+    .team #team-carousel .owl-controls .owl-buttons {
+        right: 0;
+    }
+    .video-wrapper iframe {
+        height: 400px;
+        width: 700px;
+    };
+}
+
+@media only screen and (max-width: 650px) {
+    .video-wrapper iframe {
+        height: auto;
+        width: 100%;
+    };
+}
+
+@media only screen and (max-width: 480px) {
+    .navbar-header {
+        padding: 0 15px;
+    }
+    .navbar-toggle {
+        margin: 0;
+    }
+    .navbar-toggle .icon-bar {
+        background: #F62459;
+    }
+    header nav ul.nav.pull-right {
+        float: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        background: #fff;
+        box-shadow: 0 1px 3px #ddd;
+    }
+    .is-sticky .navbar-collapse.collapse.in {
+        box-shadow: none;
+    }
+    header nav ul.nav li:last-child form::before {
+        border-bottom: 25px solid transparent;
+        border-right: 20px solid #f62459;
+        border-top: 25px solid transparent;
+        left: -41px;
+        top: 1px;
+        right: auto;
+    }
+    header nav ul.nav li:last-child form {
+        left: 100px;
+        top: -10px;
+    }
+    .intro #intro-carousel .carousel-inner .item figure figcaption {
+        top: 105px;
+        text-align: center;
+    }
+    .intro #intro-carousel .carousel-inner .item figure figcaption h1 {
+        font-size: 22px;
+        width: 100%;
+    }
+    .intro #intro-carousel .carousel-inner .item figure figcaption a {
+        font-size: 17px;
+        margin-top: 10px;
+        padding: 10px 20px;
+    }
+    .intro #intro-carousel .carousel-inner .item figure img {
+        min-height: 350px;
+    }
+    .intro #intro-carousel .left-slide img, .intro #intro-carousel .right-slide img {
+        width: 40px;
+    }
+    .intro #intro-carousel .left-slide, .intro #intro-carousel .right-slide {
+        bottom: 0px;
+        right: 32%;
+    }
+    .intro #intro-carousel .left-slide {
+        margin-right: 60px;
+    }
+    .intro .intro-bottom {
+        height: 100px;
+    }
+    .section-number {
+        margin-left: 0;
+    }
+    .section-number::after {
+        content: none;
+    }
+    .section-number::before {
+        content: none;
+    }
+    .about, .creative-concept, .services, .testimonial, .blog, .video, footer, .portfolio, .team, .contact {
+        text-align: center;
+        padding: 80px 0;
+    }
+    h2.section-heading {
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+	.about .container .row .col-sm-4{
+		margin-bottom:30px;
+	}
+	.services .container .row .service-column:nth-child(2){
+		margin-bottom:50px;
+	}
+	.creative-concept {
+        padding-bottom: 0;
+    }
+    .creative-concept .concept-image {
+        margin: 50px 0 0 0;
+    }
+    .creative-concept .concept-image img {
+        width: 100%;
+    }
+    .services .service-box:first-child {
+        margin-bottom: 50px;
+    }
+    .services .service-column:last-child {
+        margin-top: 50px;
+    }
+    .portfolio-item figure img {
+        width: 100%;
+    }
+    .portfolio .portfolio-more {
+        text-align: center;
+    }
+    .testimonial #testimonial-carousel .owl-controls .owl-pagination {
+        bottom: 10px;
+        left: 50%;
+        margin-left: -30px;
+    }
+    .testimonial #testimonial-carousel .client-content .client-info ul.c-rating {
+        position: unset;
+    }
+    .testimonial #testimonial-carousel .owl-controls .owl-buttons {
+        display: none;
+    }
+    .pricing-table .section-heading {
+        text-align: center;
+    }
+    .pricing-table .section-number {
+        margin: 0 auto;
+        display: block;
+    }
+    .pricing-table .single-plan {
+        margin-bottom: 15px;
+    }
+    .pricing-table .single-plan .pricing-wrapper .pricing-content .plan-purchase a.buy-plan-btn {
+        font-size: 23px;
+    }
+    .pricing-table .single-plan:last-child {
+        margin-bottom: 0;
+    }
+    .team #team-carousel .owl-controls .owl-buttons {
+        bottom: -55px;
+        left: 50%;
+        margin-left: -50px;
+        right: auto;
+    }
+	.team #team-carousel .team-single figure figcaption h2 {
+		font-size: 20px;
+	}
+	.team #team-carousel .team-single figure figcaption .skills .skill-single {
+		margin-bottom: 10px;
+	}
+    .owl-carousel .owl-wrapper, .owl-carousel .owl-item {
+        margin-left: 7px;
+    }
+    .blog .post-column {
+        margin-bottom: 60px;
+    }
+    .blog .post-column:last-child {
+        margin-bottom: 0;
+    }
+    .video-wrapper iframe {
+        height: 300px;
+        width: 100%;
+    }
+    .contact form div input {
+        width: 100%;
+    }
+    .contact form div button[type="submit"] {
+        float: none;
+    }
+    footer {
+        padding: 50px 0;
+    }
+	footer ul.footer-social li {
+		margin-right: 20px;
+	}
+}
