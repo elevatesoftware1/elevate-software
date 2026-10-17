@@ -36,6 +36,9 @@
 }
 
 @media only screen and (max-width: 991px) {
+    header nav ul.nav li{
+        padding: 10px 12px;
+    }
     .intro #intro-carousel .carousel-inner .item figure figcaption {
         top: 130px;
     }
@@ -98,6 +101,22 @@
         height: 400px;
         width: 700px;
     };
+    .intro{
+        margin-top: 75px;
+    }
+    .intro-bottom > a {
+        width: 25px;
+        height: 40px;
+    }
+    .nav-contact-info .contact-separator{
+        margin: 0 4px;
+    }
+    li.nav-contact-info{
+        padding-left: 12px !important;
+    }
+    div#main-nav-sticky-wrapper {
+        height: auto !important;
+    }
 }
 
 @media only screen and (max-width: 650px) {
@@ -140,7 +159,7 @@
         top: -10px;
     }
     .intro #intro-carousel .carousel-inner .item figure figcaption {
-        top: 105px;
+        top: -50px;
         text-align: center;
     }
     .intro #intro-carousel .carousel-inner .item figure figcaption h1 {
@@ -151,9 +170,14 @@
         font-size: 17px;
         margin-top: 10px;
         padding: 10px 20px;
+        display: none;
     }
     .intro #intro-carousel .carousel-inner .item figure img {
-        min-height: 350px;
+        min-height: auto;
+        margin-top: 75px;
+    }
+    .contact form div textarea{
+            width: 100%;
     }
     .intro #intro-carousel .left-slide img, .intro #intro-carousel .right-slide img {
         width: 40px;
@@ -161,12 +185,14 @@
     .intro #intro-carousel .left-slide, .intro #intro-carousel .right-slide {
         bottom: 0px;
         right: 32%;
+        display: none;
     }
     .intro #intro-carousel .left-slide {
         margin-right: 60px;
     }
     .intro .intro-bottom {
-        height: 100px;
+        height: 80px;
+        bottom: -20px;
     }
     .section-number {
         margin-left: 0;
@@ -179,7 +205,7 @@
     }
     .about, .creative-concept, .services, .testimonial, .blog, .video, footer, .portfolio, .team, .contact {
         text-align: center;
-        padding: 80px 0;
+        padding: 90px 0;
     }
     h2.section-heading {
         font-size: 40px;
