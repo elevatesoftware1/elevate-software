@@ -145,6 +145,10 @@ li.nav-contact-info {
     text-transform: lowercase !important;
 }
 
+.navbar .navbar-header .navbar-brand img {
+    width: 185px;
+}
+
 /* Responsive adjustments for mobile screens */
 @media (max-width: 767px) {
     .nav-contact-info {
